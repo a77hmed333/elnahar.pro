@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>حساب العميل | مصنع ومصبغة النهار</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { background: var(--bg-soft); display: flex; flex-direction: column; min-height: 100vh; }
+    .account-wrapper { flex: 1; display: flex; align-items: center; justify-content: center; padding: 50px 20px; }
+    .account-card { background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 40px; width: 100%; max-width: 480px; box-shadow: 0 12px 32px rgba(0,0,0,0.07); }
+    .account-card h2 { color: var(--navy); margin-bottom: 8px; font-weight: 800; font-size: 1.7rem; }
+    .account-card p { color: var(--text-muted); font-size: 0.92rem; margin-bottom: 24px; }
+    .form-group { margin-bottom: 16px; }
+    .form-group label { display: block; font-size: 0.82rem; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+    .form-group input { width: 100%; background: var(--bg-soft); border: 1.5px solid var(--border); padding: 12px 14px; border-radius: 10px; font-family: inherit; font-size: 0.95rem; color: var(--navy); }
+    .form-group input:focus { outline: none; border-color: var(--navy); background: #fff; }
+    .auth-switch { text-align: center; margin-top: 20px; font-size: 0.9rem; color: var(--text-muted); }
+    .auth-switch a { color: var(--gold); font-weight: 700; text-decoration: none; }
+
+    @keyframes shake {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-8px); }
+      75% { transform: translateX(8px); }
+    }
+    .shake { animation: shake 0.3s ease-in-out; }
+
+    .error-msg {
+      display: none; background: #fef2f2; color: #dc2626; border: 1px solid #fecaca;
+      padding: 10px 14px; border-radius: 8px; font-size: 0.85rem; font-weight: 700;
+      margin-top: 12px; text-align: center;
+    }
+
+    .profile-avatar {
+      width: 68px; height: 68px; background: var(--navy); color: var(--gold);
+      border-radius: 50%; display: flex; align-items: center; justify-content: center;
+      font-size: 1.8rem; font-weight: 800; margin: 0 auto 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">
+        <div class="brand-mark">☀</div>
+        <div>
+          <span class="brand-name">النهار للأقمشة والصباغة</span>
+          <span class="brand-sub">بوابة عملاء B2B</span>
+        </div>
+      </a>
+      <a href="index.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 8px 16px;">← العودة للموقع الرئيسي</a>
+    </div>
+  </header>
+
+  <div class="account-wrapper">
+    <div class="account-card" id="authCardBox">
+      
+      <!-- حاوية نماذج التسجيل والدخول -->
+      <div id="formContainer">
+        <h2 id="boxTitle">إنشاء حساب جديد</h2>
+        <p id="boxSub">أنشئ حسابك لملء بياناتك تلقائياً عند إتمام أي طلب قماش أو حجز ماكينة.</p>
+
+        <!-- 1. استمارة إنشاء حساب جديد -->
+        <div id="registerForm">
+          <div class="form-group">
+            <label>الاسم الكامل *</label>
+            <input type="text" id="regName" placeholder="أدخل اسمك الكريم">
+          </div>
+          <div class="form-group">
+            <label>البريد الإلكتروني *</label>
+            <input type="email" id="regEmail" placeholder="name@company.com">
+          </div>
+          <div class="form-group">
+            <label>رقم الموبايل أو واتساب *</label>
+            <input type="tel" id="regPhone" placeholder="010XXXXXXXX">
+          </div>
+          <div class="form-group">
+            <label>العنوان تفصيلياً *</label>
+            <input type="text" id="regAddress" placeholder="المدينة، المنطقة الصناعية، الشارع">
+          </div>
+          <div class="form-group">
+            <label>اسم الشركة أو المصنع (اختياري)</label>
+            <input type="text" id="regCompany" placeholder="مثال: مصنع النور للملابس">
+          </div>
+          <div class="form-group">
+            <label>كلمة المرور *</label>
+            <input type="password" id="regPass" placeholder="••••••••">
+          </div>
+
+          <!-- رسالة الخطأ الحمراء في إنشاء الحساب -->
+          <div id="regErrorMsg" class="error-msg"></div>
+
+          <button class="btn btn-primary" style="width:100%; margin-top:14px;" onclick="submitRegister()">إنشاء الحساب وبدء التسوق</button>
+          
+          <div class="auth-switch">
+            لديك حساب بالفعل؟ <a href="javascript:void(0)" onclick="switchMode('login')">تسجيل الدخول</a>
+          </div>
+        </div>
+
+        <!-- 2. استمارة تسجيل الدخول -->
+        <div id="loginForm" style="display: none;">
+          <div class="form-group">
+            <label>البريد الإلكتروني</label>
+            <input type="email" id="logEmail" placeholder="name@company.com">
+          </div>
+          <div class="form-group">
+            <label>كلمة المرور</label>
+            <input type="password" id="logPass" placeholder="••••••••" onkeydown="if(event.key === 'Enter') submitLogin()">
+          </div>
+
+          <!-- رسالة الخطأ الحمراء في تسجيل الدخول -->
+          <div id="loginErrorMsg" class="error-msg">✕ البريد الإلكتروني أو كلمة المرور غير صحيحة.</div>
+
+          <button class="btn btn-primary" style="width:100%; margin-top:14px;" onclick="submitLogin()">تسجيل الدخول</button>
+          
+          <div class="auth-switch">
+            ليس لديك حساب؟ <a href="javascript:void(0)" onclick="switchMode('register')">إنشاء حساب جديد</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3. عرض بيانات الحساب لو العميل مسجل دخول بالفعل -->
+      <div id="profileContainer" style="display: none; text-align: center;">
+        <div class="profile-avatar" id="profAvatar">👤</div>
+        <h2 id="profName" style="margin-bottom:4px;">-</h2>
+        <p id="profEmail" style="margin-bottom:12px;">-</p>
+        <span class="pill-badge" id="profCompany">-</span>
+
+        <div style="background:var(--bg-soft); padding:16px; border-radius:12px; margin:20px 0; text-align:right; font-size:0.92rem; border:1px solid var(--border);">
+          <div style="margin-bottom:8px;">📱 <strong>رقم الهاتف:</strong> <span id="profPhone">-</span></div>
+          <div>📍 <strong>العنوان:</strong> <span id="profAddress">-</span></div>
+        </div>
+
+        <a href="index.html#shop" class="btn btn-primary" style="width:100%; margin-bottom:10px;">الذهاب لمتجر الأقمشة وحجز الماكينات</a>
+        <button class="btn btn-secondary" style="width:100%; color:#dc2626; border-color:#fecaca;" onclick="logoutCustomer()">تسجيل الخروج من الحساب</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    window.addEventListener('DOMContentLoaded', checkAccountSession);
+  </script>
+</body>
+</html>

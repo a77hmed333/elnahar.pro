@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" id="htmlTag">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مصنع ومصبغة النهار | صباغة وطباعة وتجهيز الأقمشة</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. القائمة العلوية (Navbar) -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#top" class="brand">
+        <div class="brand-mark">☀</div>
+        <div>
+          <span class="brand-name" data-ar="النهار للأقمشة والصباغة" data-en="AL-NAHAR TEXTILES">النهار للأقمشة والصباغة</span>
+          <span class="brand-sub" data-ar="صباغة · طباعة · تجهيز · نسيج" data-en="Dyeing · Printing · Finishing · Knitting">صباغة · طباعة · تجهيز · نسيج</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#shop" data-ar="متجر الأقمشة والألوان" data-en="Fabric & Color Store">متجر الأقمشة والألوان</a>
+        <a href="#machines" data-ar="التصنيع للغير (حجز الماكينات)" data-en="Toll Mfg & Machine Slots">التصنيع للغير (حجز الماكينات)</a>
+        <a href="#tracker" data-ar="تتبع طلبيتك" data-en="Track Batch">تتبع طلبيتك</a>
+        <a href="#quality" data-ar="عن المصنع والتواصل" data-en="About & Contact">عن المصنع والتواصل</a>
+      </nav>
+
+     <div class="nav-actions">
+        <button class="btn-lang" id="langToggle" onclick="toggleLanguage()">English</button>
+        
+        <!-- زر الانتقال لصفحة الحساب المستقلة -->
+        <a href="account.html" class="btn btn-secondary" style="padding: 8px 14px; font-size:0.85rem; text-decoration:none;">
+          👤 <span id="authBtnText">حسابي</span>
+        </a>
+
+        <a href="#cartSection" class="btn-cart">
+          <span>سلة الطلبات</span>
+          <span class="cart-badge" id="cartCount">0</span>
+        </a>
+        <button class="menu-toggle" onclick="toggleMobileMenu()">☰</button>
+      </div>
+  </header>
+
+  <!-- 2. الواجهة الرئيسية (Hero Section) -->
+  <section class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <div class="pill-badge" data-ar="خبرة أكثر من 45 عاماً · العاشر من رمضان - المنطقة الصناعية C1" data-en="45+ Years of Excellence · 10th of Ramadan - Zone C1">
+          خبرة أكثر من 45 عاماً · العاشر من رمضان - المنطقة الصناعية C1
+        </div>
+        <h1 class="hero-title" data-ar="في النهار.. كل لون يظهر على حقيقته." data-en="In Al-Nahar, Every Shade Shows Its True Color.">
+          في النهار.. كل لون يظهر على حقيقته.
+        </h1>
+        <p class="hero-desc"
+           data-ar="تأسست على يد المهندس أحمد صلاح، ويدير قطاعها التجاري المهندس أحمد عادل. تقدم مصبغة ومصنع النهار حلولاً متكاملة من شراء الأقمشة المصبوغة والمجهزة أونلاين، إلى حجز خطوط الصباغة والطباعة والتجهيز للتصنيع للغير بأعلى معايير الجودة العالمية."
+           data-en="Founded by Eng. Ahmed Salah, with commercial operations led by Eng. Ahmed Adel, Al-Nahar provides end-to-end textile solutions: order finished fabrics online or book live machine capacity for toll dyeing, rotary printing, and finishing.">
+          تأسست على يد المهندس أحمد صلاح، ويدير قطاعها التجاري المهندس أحمد عادل. تقدم مصبغة ومصنع النهار حلولاً متكاملة من شراء الأقمشة المصبوغة والمجهزة أونلاين، إلى حجز خطوط الصباغة والطباعة والتجهيز للتصنيع للغير بأعلى معايير الجودة العالمية.
+        </p>
+
+        <div class="hero-btns">
+          <a href="#shop" class="btn btn-primary" data-ar="اطلب أقمشة وألوان أونلاين" data-en="Buy Fabrics & Shades Online">اطلب أقمشة وألوان أونلاين</a>
+          <a href="#machines" class="btn btn-secondary" data-ar="احجز ماكينة (تصنيع للغير)" data-en="Book Machine Slot (Toll Mfg)">احجز ماكينة (تصنيع للغير)</a>
+        </div>
+      </div>
+
+      <!-- بطاقة إحصائيات المصنع -->
+      <div class="hero-stats-card">
+        <div class="stats-card-header">
+          <span class="live-dot"></span>
+          <strong data-ar="القدرة الإنتاجية اليومية لمصنع النهار" data-en="Al-Nahar Daily Mill Capacity">القدرة الإنتاجية اليومية لمصنع النهار</strong>
+        </div>
+        <div class="stats-grid-clean">
+          <div class="stat-item">
+            <span class="stat-val">+40 <small data-ar="طن/يوم" data-en="t/day">طن/يوم</small></span>
+            <span class="stat-lbl" data-ar="طاقة الصباغة (15 ماكينة)" data-en="Dyeing Capacity (15 Machines)">طاقة الصباغة (15 ماكينة)</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">70,000 <small data-ar="متر/يوم" data-en="m/day">متر/يوم</small></span>
+            <span class="stat-lbl" data-ar="طباعة روتاري حديثة" data-en="Rotary Screen Printing">طباعة روتاري حديثة</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">20 <small data-ar="طن/يوم" data-en="t/day">طن/يوم</small></span>
+            <span class="stat-lbl" data-ar="طاقة النسيج الدائري" data-en="Circular Knitting Floor">طاقة النسيج الدائري</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-val">250 <small data-ar="كجم" data-en="kg">كجم</small></span>
+            <span class="stat-lbl" data-ar="الحد الأدنى للون الواحد" data-en="Minimum Order per Shade">الحد الأدنى للون الواحد</span>
+          </div>
+        </div>
+        <div class="iso-strip">
+          <span>✓ ISO 9001:2015</span>
+          <span>✓ ISO 14001:2015</span>
+          <span>✓ ISO 45001:2018</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. متجر شراء الأقمشة والألوان أونلاين (Fabric & Color Store) -->
+  <section class="section" id="shop">
+    <div class="container">
+      <div class="section-top">
+        <div>
+          <span class="eyebrow" data-ar="القسم الأول · الشراء المباشر" data-en="SECTION 01 · DIRECT B2B STORE">القسم الأول · الشراء المباشر</span>
+          <h2 class="section-title" data-ar="متجر الأقمشة والألوان أونلاين" data-en="Order Finished Fabrics & Colors Online">متجر الأقمشة والألوان أونلاين</h2>
+          <p class="section-sub" data-ar="اختر الخامة، اضغط على اللون لمعاينته مباشرة على القماش (أو اكتب كود Pantone خاص بك)، وحدد الكمية لحساب السعر فوراً." data-en="Select your fabric, click any swatch to preview the shade live (or enter a custom Pantone), and calculate bulk pricing.">
+            اختر الخامة، اضغط على اللون لمعاينته مباشرة على القماش (أو اكتب كود Pantone خاص بك)، وحدد الكمية لحساب السعر فوراً.
+          </p>
+        </div>
+
+        <div class="filter-pills" id="fabricFilters">
+          <button class="pill active" onclick="filterFabrics('all', this)" data-ar="الكل" data-en="All">الكل</button>
+          <button class="pill" onclick="filterFabrics('cotton', this)" data-ar="قطن 100%" data-en="100% Cotton">قطن 100%</button>
+          <button class="pill" onclick="filterFabrics('blends', this)" data-ar="ليكرا ومخلوط" data-en="Lycra & Blends">ليكرا ومخلوط</button>
+          <button class="pill" onclick="filterFabrics('polyester', this)" data-ar="فسكوز وبوليستر" data-en="Viscose & Polyester">فسكوز وبوليستر</button>
+        </div>
+      </div>
+
+      <div class="cards-grid" id="fabricsContainer"></div>
+    </div>
+  </section>
+
+  <!-- 4. قسم التصنيع للغير وحجز أوقات فراغ الماكينات (Toll Manufacturing) -->
+  <section class="section section-gray" id="machines">
+    <div class="container">
+      <div class="section-top">
+        <div>
+          <span class="eyebrow" data-ar="القسم الثاني · خدمة التشغيل للغير" data-en="SECTION 02 · TOLL MANUFACTURING">القسم الثاني · خدمة التشغيل للغير</span>
+          <h2 class="section-title" data-ar="التصنيع للغير وحجز أوقات فراغ الماكينات" data-en="Machine Idle Slots & Toll Manufacturing">التصنيع للغير وحجز أوقات فراغ الماكينات</h2>
+          <p class="section-sub" data-ar="لديك قماش خام وتريد صباغته أو طباعته أو تجهيزه؟ استعرض جدول أوقات الفراغ الفعلي لماكينات مصنع النهار، أسعار المصنعية، واحجز موعدك مباشرة." data-en="Have your own greige cloth? View live machine availability at Al-Nahar Mill, transparent toll rates, and reserve your production slot online.">
+            لديك قماش خام وتريد صباغته أو طباعته أو تجهيزه؟ استعرض جدول أوقات الفراغ الفعلي لماكينات مصنع النهار، أسعار المصنعية، واحجز موعدك مباشرة.
+          </p>
+        </div>
+
+        <div class="filter-pills">
+          <button class="pill active" onclick="filterMachines('all', this)" data-ar="كل الخطوط" data-en="All Lines">كل الخطوط</button>
+          <button class="pill" onclick="filterMachines('available_now', this)" data-ar="متاح خلال 24 ساعة" data-en="Available in 24h">متاح خلال 24 ساعة</button>
+          <button class="pill" onclick="filterMachines('dyeing', this)" data-ar="خطوط الصباغة" data-en="Dyeing Lines">خطوط الصباغة</button>
+          <button class="pill" onclick="filterMachines('printing_finishing', this)" data-ar="الطباعة والتجهيز" data-en="Printing & Finishing">الطباعة والتجهيز</button>
+        </div>
+      </div>
+
+      <div class="cards-grid" id="machinesContainer"></div>
+    </div>
+  </section>
+
+  <!-- 5. تتبع مراحل التشغيل الستة (6-Stage Order Tracker) -->
+  <section class="section" id="tracker">
+    <div class="container">
+      <div class="tracker-wrapper">
+        <div class="tracker-head">
+          <div>
+            <span class="eyebrow" data-ar="الشفافية والمتابعة اللحظية" data-en="REAL-TIME ORDER TRACEABILITY">الشفافية والمتابعة اللحظية</span>
+            <h2 class="section-title" data-ar="تتبع حالة طلبيتك داخل المصنع (6 مراحل)" data-en="Track Your Fabric Batch Across 6 Stages">تتبع حالة طلبيتك داخل المصنع (6 مراحل)</h2>
+            <p class="section-sub" data-ar="يمر كل رول قماش عبر 6 مراحل مسجلة بدقة من الاستلام وحتى الفحص والشحن. أدخل رقم التشغيلة لمعرفة المرحلة الحالية." data-en="Every roll travels through 6 logged stages from intake to dispatch. Enter your Batch ID below.">
+              يمر كل رول قماش عبر 6 مراحل مسجلة بدقة من الاستلام وحتى الفحص والشحن. أدخل رقم التشغيلة لمعرفة المرحلة الحالية.
+            </p>
+          </div>
+
+          <div class="tracker-search-box">
+            <input type="text" id="batchInput" placeholder="أدخل رقم التشغيلة (مثال: NH-2026-841)">
+            <button class="btn btn-primary" onclick="searchBatch()" data-ar="بحث وتتبع" data-en="Track Now">بحث وتتبع</button>
+          </div>
+        </div>
+
+        <div class="demo-chips">
+          <span data-ar="أرقام تشغيلات نشطة للتجربة (اضغط عليها):" data-en="Active demo batches (click to test):">أرقام تشغيلات نشطة للتجربة (اضغط عليها):</span>
+          <button class="chip" onclick="quickTrack('NH-2026-841')">NH-2026-841</button>
+          <button class="chip" onclick="quickTrack('NH-2026-905')">NH-2026-905</button>
+        </div>
+
+        <div id="trackerResult" class="tracker-result-box" style="display: none;">
+          <div class="batch-meta-bar">
+            <div><span data-ar="رقم التشغيلة" data-en="Batch ID">رقم التشغيلة</span><strong id="tBatchId">-</strong></div>
+            <div><span data-ar="المواصفات والكمية" data-en="Fabric & Qty">المواصفات والكمية</span><strong id="tBatchSpec">-</strong></div>
+            <div><span data-ar="اللون / التصميم" data-en="Target Shade">اللون / التصميم</span><strong id="tBatchShade">-</strong></div>
+            <div><span data-ar="موعد التسليم" data-en="Est. Dispatch">موعد التسليم</span><strong id="tBatchDate">-</strong></div>
+          </div>
+
+          <div class="stepper-grid" id="stagesTrackGrid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. سلة الطلبات وحجوزات الماكينات والدفع الإلكتروني (Unified Checkout & Payment) -->
+  <section class="section section-gray" id="cartSection">
+    <div class="container">
+      <div class="checkout-card">
+        <div class="checkout-header">
+          <div>
+            <span class="eyebrow" data-ar="ملخص الطلبية والحجز والدفع" data-en="ORDER, BOOKING & PAYMENT SUMMARY">ملخص الطلبية والحجز والدفع</span>
+            <h2 class="section-title" style="margin-bottom:0" data-ar="سلة مشتريات الأقمشة وحجوزات الماكينات" data-en="Your Fabric Orders & Machine Reservations">سلة مشتريات الأقمشة وحجوزات الماكينات</h2>
+          </div>
+          <button class="btn btn-secondary" onclick="clearCart()" data-ar="إفراغ السلة" data-en="Clear Cart">إفراغ السلة</button>
+        </div>
+
+        <div id="cartItemsList" class="cart-list"></div>
+
+        <div id="cartFooter" class="checkout-footer" style="display: none;">
+          <div class="total-banner">
+            <span data-ar="الإجمالي التقديري للطلبيات والحجوزات:" data-en="Estimated Total for Orders & Bookings:">الإجمالي التقديري للطلبيات والحجوزات:</span>
+            <strong id="cartGrandTotal">0 ج.م</strong>
+          </div>
+
+          <!-- خيارات الدفع ونسبة العربون -->
+          <div class="payment-section">
+            <h4 class="payment-title" data-ar="1. اختر نظام السداد وطريقة الدفع:" data-en="1. Select Payment Plan & Method:">1. اختر نظام السداد وطريقة الدفع:</h4>
+
+            <!-- اختيار دفع عربون 25% أو المبلغ كامل -->
+            <div class="pay-plan-grid">
+              <label class="plan-Option active" id="planDepositLbl" onclick="selectPayPlan('deposit')">
+                <input type="radio" name="payPlan" value="deposit" checked>
+                <div>
+                  <strong data-ar="دفع عربون جدية حجز وتشغيل (25%)" data-en="Pay 25% Production Deposit">دفع عربون جدية حجز وتشغيل (25%)</strong>
+                  <span id="depositAmountTxt">0 ج.م</span>
+                </div>
+              </label>
+
+              <label class="plan-Option" id="planFullLbl" onclick="selectPayPlan('full')">
+                <input type="radio" name="payPlan" value="full">
+                <div>
+                  <strong data-ar="سداد إجمالي الفاتورة بالكامل (100%)" data-en="Pay Full Invoice Amount (100%)">سداد إجمالي الفاتورة بالكامل (100%)</strong>
+                  <span id="fullAmountTxt">0 ج.م</span>
+                </div>
+              </label>
+            </div>
+
+            <!-- أزرار اختيار وسيلة الدفع -->
+            <div class="payment-methods-tabs">
+              <button type="button" class="pm-tab active" onclick="switchPaymentMethod('vf_cash', this)">
+                🔴 <span data-ar="فودافون كاش" data-en="Vodafone Cash">فودافون كاش</span>
+              </button>
+              <button type="button" class="pm-tab" onclick="switchPaymentMethod('instapay', this)">
+                🟣 <span data-ar="إنستا باي (InstaPay)" data-en="InstaPay">إنستا باي (InstaPay)</span>
+              </button>
+              <button type="button" class="pm-tab" onclick="switchPaymentMethod('visa', this)">
+                💳 <span data-ar="بطاقة بنكية (Visa / MasterCard)" data-en="Bank Card (Visa / MasterCard)">بطاقة بنكية (Visa / MasterCard)</span>
+              </button>
+            </div>
+
+            <!-- صندوق فودافون كاش -->
+            <div class="payment-details-box" id="payBox-vf_cash">
+              <p data-ar="حول المبلغ المطلوب على رقم محفظة فودافون كاش الرسمي للمصنع، ثم أدخل رقم الموبايل الذي حولت منه:" data-en="Transfer the required amount to our official Vodafone Cash wallet, then enter your sender number:">
+                حول المبلغ المطلوب على رقم محفظة فودافون كاش الرسمي للمصنع، ثم أدخل رقم الموبايل الذي حولت منه:
+              </p>
+              <div class="wallet-number-banner">
+                <span data-ar="رقم محفظة فودافون كاش:" data-en="Vodafone Cash Wallet:">رقم محفظة فودافون كاش:</span>
+                <strong dir="ltr">01000887410</strong>
+              </div>
+              <input type="text" id="vfSenderNum" placeholder="رقم الموبايل المحول منه أو رقم العملية (اختياري)">
+            </div>
+
+            <!-- صندوق إنستا باي -->
+            <div class="payment-details-box" id="payBox-instapay" style="display: none;">
+              <p data-ar="حول لحظياً عبر تطبيق InstaPay إلى رقم هاتف الإدارة التجارية:" data-en="Transfer instantly via InstaPay to our commercial phone number:">
+                حول لحظياً عبر تطبيق InstaPay إلى رقم هاتف الإدارة التجارية:
+              </p>
+              <div class="wallet-number-banner">
+                <span data-ar="الرقم المسجل على InstaPay:" data-en="Registered InstaPay Number:">الرقم المسجل على InstaPay:</span>
+                <strong dir="ltr">01000887410</strong>
+              </div>
+              <input type="text" id="instaRefNum" placeholder="اسم الحساب المحول منه أو الرقم المرجعي (Reference)">
+            </div>
+
+            <!-- صندوق الفيزا والماستركارد -->
+            <div class="payment-details-box" id="payBox-visa" style="display: none;">
+              <div class="visa-form-grid">
+                <input type="text" id="cardHolder" placeholder="الاسم على البطاقة / Cardholder Name">
+                <input type="text" id="cardNumber" placeholder="رقم البطاقة (16 رقم) / Card Number" maxlength="19" dir="ltr">
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:10px;">
+                  <input type="text" id="cardExpiry" placeholder="MM / YY" maxlength="5" dir="ltr">
+                  <input type="password" id="cardCvv" placeholder="CVV" maxlength="4" dir="ltr">
+                </div>
+              </div>
+              <small style="color:var(--text-muted); display:block; margin-top:8px;" data-ar="🔒 يتم إصدار رابط دفع بنكي مؤمّن (3D Secure) لتأكيد الخصم." data-en="🔒 A secure 3D-Secure bank link will be generated to authorize payment.">
+                🔒 يتم إصدار رابط دفع بنكي مؤمّن (3D Secure) لتأكيد الخصم.
+              </small>
+            </div>
+          </div>
+
+          <h4 class="payment-title" style="margin-top:20px;" data-ar="2. بيانات العميل والمصنع:" data-en="2. Client & Factory Details:">2. بيانات العميل والمصنع:</h4>
+          <div class="customer-form">
+            <input type="text" id="custName" placeholder="اسم المسؤول / Your Name">
+            <input type="text" id="custFactory" placeholder="اسم المصنع أو الشركة / Company Name">
+            <input type="tel" id="custPhone" placeholder="رقم الموبايل أو واتساب / WhatsApp Number">
+            <button class="btn btn-gold" onclick="submitOrderViaWhatsApp()" data-ar="تأكيد الدفع وإرسال الطلب عبر واتساب ↗" data-en="Confirm Payment & Send via WhatsApp ↗">
+              تأكيد الدفع وإرسال الطلب عبر واتساب ↗
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. الفوتر ومعلومات المصنع (Footer) -->
+  <footer class="footer" id="quality">
+    <div class="container footer-grid">
+      <div>
+        <div class="brand-name" style="color:#fff; font-size:1.3rem;">مصنع ومصبغة النهار — AL-NAHAR</div>
+        <p style="color:#fde68a; font-weight:700; margin-top:6px; font-size:0.95rem;"
+           data-ar="«في النهار.. كل لون يظهر على حقيقته»"
+           data-en="“In Al-Nahar, Every Shade Shows Its True Color”">
+          «في النهار.. كل لون يظهر على حقيقته»
+        </p>
+        <p style="margin: 10px 0 20px; color:#94a3b8; max-width:420px;"
+           data-ar="تأسست على يد المهندس أحمد صلاح، ويدير قطاعها التجاري المهندس أحمد عادل. نعمل بـ 15 ماكينة صباغة، خطين طباعة روتاري، و5 رامات تجهيز تحت سقف واحد في مدينة العاشر من رمضان."
+           data-en="Founded by Eng. Ahmed Salah, and its commercial sector is managed by Eng. Ahmed Adel. We operate 15 dyeing machines, 2 rotary printing lines, and 5 finishing stenters under one roof in 10th of Ramadan City.">
+          تأسست على يد المهندس أحمد صلاح، ويدير قطاعها التجاري المهندس أحمد عادل. نعمل بـ 15 ماكينة صباغة، خطين طباعة روتاري، و5 رامات تجهيز تحت سقف واحد في مدينة العاشر من رمضان.
+        </p>
+      </div>
+
+      <div>
+        <h4 data-ar="التواصل المباشر والعنوان" data-en="Direct Contact & Location">التواصل المباشر والعنوان</h4>
+        <ul class="footer-list">
+          <li><strong data-ar="المدير التجاري:" data-en="Commercial Manager:">المدير التجاري:</strong> <span dir="ltr">01000887410</span></li>
+          <li><strong data-ar="خدمة العملاء:" data-en="Customer Service:">خدمة العملاء:</strong> <span dir="ltr">01029222933</span></li>
+          <li data-ar="العاشر من رمضان، المنطقة الصناعية C1، الشرقية، مصر" data-en="10th of Ramadan, Industrial Zone C1, Sharkia, Egypt">العاشر من رمضان، المنطقة الصناعية C1، الشرقية، مصر</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 style="margin-bottom: 14px;" data-ar="بوابة الإدارة" data-en="Management Portal">بوابة الإدارة</h4>
+        <a href="admin.html" class="btn btn-admin-link" data-ar="دخول لوحة تحكم الإدارة 🔒" data-en="Admin Control Panel 🔒">دخول لوحة تحكم الإدارة 🔒</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- نافذة تسجيل الدخول / إنشاء حساب للعملاء -->
+  <div class="login-overlay" id="authModal" style="display: none;">
+    <div class="login-box" style="text-align: right; max-width: 450px;">
+      <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+        <h3 id="authModalTitle" style="color:var(--navy); margin:0;">إنشاء حساب جديد على مصنع النهار</h3>
+        <button onclick="closeAuthModal()" style="background:none; border:none; font-size:1.2rem; cursor:pointer;">✕</button>
+      </div>
+      <p id="authModalSub" style="color:var(--text-muted); font-size:0.88rem; margin-bottom:15px;">أنشئ حسابك لملء بياناتك تلقائياً عند إتمام أي طلب قماش أو حجز ماكينة.</p>
+
+      <div id="authForm" style="display:grid; gap:10px;">
+        <input type="text" id="regName" placeholder="الاسم الكامل / Full Name" style="width:100%; padding:11px; border:1px solid var(--border); border-radius:8px; background:var(--bg-soft);">
+        <input type="email" id="regEmail" placeholder="البريد الإلكتروني / Email" style="width:100%; padding:11px; border:1px solid var(--border); border-radius:8px; background:var(--bg-soft);">
+        <input type="tel" id="regPhone" placeholder="رقم الموبايل / Phone Number" style="width:100%; padding:11px; border:1px solid var(--border); border-radius:8px; background:var(--bg-soft);">
+        <input type="text" id="regAddress" placeholder="العنوان تفصيلياً / Address" style="width:100%; padding:11px; border:1px solid var(--border); border-radius:8px; background:var(--bg-soft);">
+        <input type="text" id="regCompany" placeholder="اسم الشركة أو المصنع (اختياري) / Company Name" style="width:100%; padding:11px; border:1px solid var(--border); border-radius:8px; background:var(--bg-soft);">
+        <input type="password" id="regPass" placeholder="كلمة المرور / Password" style="width:100%; padding:11px; border:1px solid var(--border); border-radius:8px; background:var(--bg-soft);">
+
+        <button class="btn btn-primary" style="width:100%; margin-top:8px;" onclick="registerCustomer()">تسجيل الحساب وحفظ البيانات</button>
+        <p style="text-align:center; margin-top:10px; font-size:0.85rem;">
+          لديك حساب بالفعل؟ <a href="javascript:void(0)" onclick="switchToLogin()" style="color:var(--gold); font-weight:700;">تسجيل الدخول</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,349 @@
+{
+  "adminPassword": "2005",
+  "fabrics": [
+    {
+      "id": "fab-1",
+      "category": "cotton",
+      "nameAr": "\u0633\u0646\u062C\u0644 \u062C\u064A\u0631\u0633\u064A\u0647 \u0642\u0637\u0646 100% \u0641\u0627\u062E\u0631",
+      "nameEn": "100% Cotton Single Jersey",
+      "specsAr": "\u0648\u0632\u0646 160-180 \u062C\u0631\u0627\u0645 \u00B7 \u0639\u0631\u0636 \u0645\u0641\u062A\u0648\u062D \u00B7 \u0635\u0628\u0627\u063A\u0629 \u0631\u064A\u0627\u0643\u062A\u064A\u0641 \u0648\u062A\u062C\u0647\u064A\u0632 \u0643\u0648\u0645\u0628\u0627\u0643\u062A\u0648\u0631",
+      "specsEn": "160-180 GSM \u00B7 Open Width \u00B7 Reactive Dyed \u0026 Compacted",
+      "pricePerKg": 295,
+      "minKg": 250
+    },
+    {
+      "id": "fab-2",
+      "category": "blends",
+      "nameAr": "\u0642\u0637\u0646 \u0644\u064A\u0643\u0631\u0627 (95/5) \u0639\u0627\u0644\u064A \u0627\u0644\u0645\u0637\u0627\u0637\u064A\u0629",
+      "nameEn": "Cotton / Lycra (95/5) Jersey",
+      "specsAr": "\u0648\u0632\u0646 190 \u062C\u0631\u0627\u0645 \u00B7 \u062B\u0628\u0627\u062A \u0623\u0628\u0639\u0627\u062F \u0648\u062A\u062B\u0628\u064A\u062A \u062D\u0631\u0627\u0631\u064A \u0639\u0644\u0649 \u0627\u0644\u0631\u0627\u0645\u0627\u062A",
+      "specsEn": "190 GSM \u00B7 High Stretch \u00B7 Heat-Set on Stenter",
+      "pricePerKg": 330,
+      "minKg": 250
+    },
+    {
+      "id": "fab-3",
+      "category": "cotton",
+      "nameAr": "\u0645\u064A\u0644\u062A\u0648\u0646 \u0642\u0637\u0646 \u0645\u0628\u0637\u0646 (\u0643\u0633\u062A\u0631\u0629 \u0648\u062D\u0644\u0627\u0642\u0629)",
+      "nameEn": "3-Thread Brushed Fleece (Melton)",
+      "specsAr": "\u0648\u0632\u0646 320 \u062C\u0631\u0627\u0645 \u00B7 \u0645\u062C\u0647\u0632 \u0643\u0633\u062A\u0631\u0629 \u0648\u062D\u0644\u0627\u0642\u0629 \u00B7 \u0645\u0644\u0645\u0633 \u0646\u0627\u0639\u0645 \u0644\u0644\u0645\u0644\u0627\u0628\u0633 \u0627\u0644\u0634\u062A\u0648\u064A\u0629",
+      "specsEn": "320 GSM \u00B7 Raised \u0026 Shaved Finish \u00B7 Winter Grade",
+      "pricePerKg": 310,
+      "minKg": 250
+    },
+    {
+      "id": "fab-4",
+      "category": "polyester",
+      "nameAr": "\u0641\u0633\u0643\u0648\u0632 \u0646\u0627\u0639\u0645 (\u062A\u062C\u0647\u064A\u0632 \u0633\u064A\u0644\u0643\u0648\u0646)",
+      "nameEn": "Viscose Soft Drape Jersey",
+      "specsAr": "\u0648\u0632\u0646 170 \u062C\u0631\u0627\u0645 \u00B7 \u0627\u0646\u0633\u064A\u0627\u0628\u064A\u0629 \u0639\u0627\u0644\u064A\u0629 \u00B7 \u0645\u062A\u0627\u062D \u0633\u0627\u062F\u0629 \u0623\u0648 \u0645\u0637\u0628\u0648\u0639 \u0631\u0648\u062A\u0627\u0631\u064A",
+      "specsEn": "170 GSM \u00B7 Reactive / Print Ready \u00B7 Soft Finish",
+      "pricePerKg": 265,
+      "minKg": 250
+    },
+    {
+      "id": "fab-5",
+      "category": "polyester",
+      "nameAr": "\u0625\u0646\u062A\u0631\u0644\u0648\u0643 \u0628\u0648\u0644\u064A\u0633\u062A\u0631 \u0631\u064A\u0627\u0636\u064A",
+      "nameEn": "Sports Polyester Interlock",
+      "specsAr": "\u0648\u0632\u0646 150 \u062C\u0631\u0627\u0645 \u00B7 \u0635\u0628\u0627\u063A\u0629 \u062F\u064A\u0633\u0628\u064A\u0631\u0633 \u0639\u0627\u0644\u064A\u0629 \u0627\u0644\u062B\u0628\u0627\u062A \u0644\u0644\u0645\u0644\u0627\u0628\u0633 \u0627\u0644\u0631\u064A\u0627\u0636\u064A\u0629",
+      "specsEn": "150 GSM \u00B7 Disperse Dyed \u00B7 Moisture Wicking Finish",
+      "pricePerKg": 210,
+      "minKg": 250
+    },
+    {
+      "id": "fab-6",
+      "category": "blends",
+      "nameAr": "\u0628\u064A\u0643\u064A\u0647 \u0644\u0627\u0643\u0648\u0633\u062A (\u0644\u0644\u0642\u0645\u0635\u0627\u0646 \u0648\u0627\u0644\u0628\u0648\u0644\u0648)",
+      "nameEn": "Poly-Cotton Pique (Polo Lacoste)",
+      "specsAr": "\u0648\u0632\u0646 210 \u062C\u0631\u0627\u0645 \u00B7 \u0645\u0639\u0627\u0644\u062C \u0633\u0627\u0646\u0641\u0648\u0631\u0627\u064A\u0632 \u0636\u062F \u0627\u0644\u0627\u0646\u0643\u0645\u0627\u0634",
+      "specsEn": "210 GSM \u00B7 Sanforized \u00B7 Zero Shrinkage Guarantee",
+      "pricePerKg": 280,
+      "minKg": 250
+    }
+  ],
+  "machines": [
+    {
+      "id": "mac-1",
+      "type": "dyeing",
+      "urgent": true,
+      "nameAr": "\u062E\u0637 \u0645\u0627\u0643\u064A\u0646\u0627\u062A \u0635\u0628\u0627\u063A\u0629 \u062C\u064A\u062A (9 \u0645\u0627\u0643\u064A\u0646\u0627\u062A Jet)",
+      "nameEn": "High-Temp Jet Dyeing Line (9 Machines)",
+      "statusAr": "\u0645\u062A\u0627\u062D \u063A\u062F\u0627\u064B \u2014 \u0627\u0644\u0648\u0631\u062F\u064A\u0629 \u0627\u0644\u062B\u0627\u0646\u064A\u0629 (2 \u0638\u0647\u0631\u0627\u064B)",
+      "statusEn": "Available Tomorrow \u2014 Shift B (2:00 PM)",
+      "capacityAr": "\u0637\u0627\u0642\u0629 \u0634\u0627\u063A\u0631\u0629 \u062D\u062A\u0649 15 \u0637\u0646",
+      "capacityEn": "Up to 15 Tons Open Capacity",
+      "unitAr": "\u0643\u062C\u0645",
+      "unitEn": "kg",
+      "rate": 45,
+      "minQty": 250,
+      "slotsAr": [
+        "\u063A\u062F\u0627\u064B (\u0627\u0644\u0648\u0631\u062F\u064A\u0629 \u0627\u0644\u062B\u0627\u0646\u064A\u0629 - 2 \u0638\u0647\u0631\u0627\u064B)",
+        "\u0627\u0644\u062E\u0645\u064A\u0633 (\u0637\u0648\u0627\u0644 \u0627\u0644\u064A\u0648\u0645)",
+        "\u0627\u0644\u0623\u062D\u062F \u0627\u0644\u0642\u0627\u062F\u0645 (\u0635\u0628\u0627\u062D\u0627\u064B)"
+      ],
+      "slotsEn": [
+        "Tomorrow (Shift B - 2:00 PM)",
+        "Thursday (Full Day)",
+        "Next Sunday (Morning)"
+      ]
+    },
+    {
+      "id": "mac-2",
+      "type": "printing_finishing",
+      "urgent": true,
+      "nameAr": "\u062E\u0637 \u0637\u0628\u0627\u0639\u0629 \u0631\u0648\u062A\u0627\u0631\u064A (70,000 \u0645\u062A\u0631/\u064A\u0648\u0645)",
+      "nameEn": "Rotary Screen Printing Line (70,000m/day)",
+      "statusAr": "\u0645\u062A\u0627\u062D \u0627\u0644\u064A\u0648\u0645 \u2014 \u0627\u0644\u0641\u062A\u0631\u0629 \u0627\u0644\u0645\u0633\u0627\u0626\u064A\u0629",
+      "statusEn": "Available Today \u2014 Evening Slot",
+      "capacityAr": "\u0637\u0627\u0642\u0629 \u0634\u0627\u063A\u0631\u0629 25,000 \u0645\u062A\u0631",
+      "capacityEn": "25,000 Meters Open Slot",
+      "unitAr": "\u0645\u062A\u0631",
+      "unitEn": "meter",
+      "rate": 18,
+      "minQty": 1000,
+      "slotsAr": [
+        "\u0627\u0644\u064A\u0648\u0645 (\u0641\u062A\u0631\u0629 6 \u0645\u0633\u0627\u0621\u064B)",
+        "\u0627\u0644\u0623\u0631\u0628\u0639\u0627\u0621 (\u0635\u0628\u0627\u062D\u0627\u064B)",
+        "\u0627\u0644\u0633\u0628\u062A (\u062E\u0637 \u0643\u0627\u0645\u0644)"
+      ],
+      "slotsEn": [
+        "Today (6:00 PM Slot)",
+        "Wednesday (Morning)",
+        "Saturday (Full Line)"
+      ]
+    },
+    {
+      "id": "mac-3",
+      "type": "printing_finishing",
+      "urgent": true,
+      "nameAr": "\u062E\u0637 \u0627\u0644\u062A\u062C\u0647\u064A\u0632 \u0627\u0644\u0646\u0647\u0627\u0626\u064A (5 \u0631\u0627\u0645\u0627\u062A \u002B 2 \u0643\u0648\u0645\u0628\u0627\u0643\u062A\u0648\u0631 \u002B \u0633\u0627\u0646\u0641\u0648\u0631\u0627\u064A\u0632)",
+      "nameEn": "Stenter, Compactor \u0026 Sanforizing Line",
+      "statusAr": "\u0645\u062A\u0627\u062D \u0644\u0644\u062D\u062C\u0632 \u062E\u0644\u0627\u0644 24 \u0633\u0627\u0639\u0629",
+      "statusEn": "Available Within 24 Hours",
+      "capacityAr": "\u062A\u062C\u0647\u064A\u0632 \u0648\u062A\u062B\u0628\u064A\u062A \u0639\u0631\u0636 \u0648\u0627\u0646\u0643\u0645\u0627\u0634",
+      "capacityEn": "5 Stenters \u002B 2 Compactors",
+      "unitAr": "\u0643\u062C\u0645",
+      "unitEn": "kg",
+      "rate": 16,
+      "minQty": 300,
+      "slotsAr": [
+        "\u063A\u062F\u0627\u064B \u0635\u0628\u0627\u062D\u0627\u064B (8:00 \u0635)",
+        "\u0627\u0644\u062C\u0645\u0639\u0629 (\u0627\u0644\u0648\u0631\u062F\u064A\u0629 \u0627\u0644\u0623\u0648\u0644\u0649)",
+        "\u0627\u0644\u0625\u062B\u0646\u064A\u0646 \u0627\u0644\u0642\u0627\u062F\u0645"
+      ],
+      "slotsEn": [
+        "Tomorrow Morning (8:00 AM)",
+        "Friday Shift A",
+        "Next Monday"
+      ]
+    },
+    {
+      "id": "mac-4",
+      "type": "dyeing",
+      "urgent": false,
+      "nameAr": "\u0645\u0627\u0643\u064A\u0646\u0627\u062A \u0635\u0628\u0627\u063A\u0629 \u0628\u0646\u0627\u0646\u0627 \u0648\u062C\u064A\u062C\u0631 (4 \u0628\u0646\u0627\u0646\u0627 \u002B 2 \u062C\u064A\u062C\u0631)",
+      "nameEn": "Banana \u0026 Jigger Dyeing Machines",
+      "statusAr": "\u0623\u0642\u0631\u0628 \u0648\u0642\u062A \u0641\u0631\u0627\u063A: \u0628\u0639\u062F 3 \u0623\u064A\u0627\u0645",
+      "statusEn": "Next Free Slot: In 3 Days",
+      "capacityAr": "\u0645\u062E\u0635\u0635\u0629 \u0644\u0644\u0623\u0642\u0645\u0634\u0629 \u0627\u0644\u062D\u0633\u0627\u0633\u0629 \u0648\u0627\u0644\u0645\u0646\u0633\u0648\u062C\u0629",
+      "capacityEn": "For Delicate \u0026 Woven Fabrics",
+      "unitAr": "\u0643\u062C\u0645",
+      "unitEn": "kg",
+      "rate": 50,
+      "minQty": 250,
+      "slotsAr": [
+        "\u0628\u0639\u062F 3 \u0623\u064A\u0627\u0645 (\u0648\u0631\u062F\u064A\u0629 \u0635\u0628\u0627\u062D\u064A\u0629)",
+        "\u0627\u0644\u062B\u0644\u0627\u062B\u0627\u0621 \u0627\u0644\u0642\u0627\u062F\u0645",
+        "\u0627\u0644\u062E\u0645\u064A\u0633 \u0627\u0644\u0642\u0627\u062F\u0645"
+      ],
+      "slotsEn": [
+        "In 3 Days (Morning Shift)",
+        "Next Tuesday",
+        "Next Thursday"
+      ]
+    },
+    {
+      "id": "mac-5",
+      "type": "printing_finishing",
+      "urgent": false,
+      "nameAr": "\u0642\u0633\u0645 \u0627\u0644\u0646\u0633\u064A\u062C \u0627\u0644\u062F\u0627\u0626\u0631\u064A (\u062A\u0634\u063A\u064A\u0644 \u0646\u0633\u064A\u062C \u0644\u0644\u063A\u064A\u0631)",
+      "nameEn": "Circular Knitting Floor (Toll Knitting)",
+      "statusAr": "\u0623\u0642\u0631\u0628 \u0648\u0642\u062A \u0641\u0631\u0627\u063A: \u0628\u0639\u062F \u064A\u0648\u0645\u064A\u0646",
+      "statusEn": "Next Free Slot: In 2 Days",
+      "capacityAr": "\u0637\u0627\u0642\u0629 \u0625\u0646\u062A\u0627\u062C\u064A\u0629 20 \u0637\u0646 \u064A\u0648\u0645\u064A\u0627\u064B",
+      "capacityEn": "20 Tons / Day Capacity",
+      "unitAr": "\u0643\u062C\u0645",
+      "unitEn": "kg",
+      "rate": 24,
+      "minQty": 500,
+      "slotsAr": [
+        "\u0628\u0639\u062F \u064A\u0648\u0645\u064A\u0646 (\u062D\u062C\u0632 5 \u0637\u0646)",
+        "\u0627\u0644\u0623\u0633\u0628\u0648\u0639 \u0627\u0644\u0642\u0627\u062F\u0645 (\u062A\u0639\u0627\u0642\u062F \u0645\u0641\u062A\u0648\u062D)"
+      ],
+      "slotsEn": [
+        "In 2 Days (5 Tons Slot)",
+        "Next Week (Open Contract)"
+      ]
+    }
+  ],
+  "batches": {
+    "NH-2026-841": {
+      "spec": "1,200 \u0643\u062C\u0645 \u00B7 \u0633\u0646\u062C\u0644 \u062C\u064A\u0631\u0633\u064A\u0647 \u0642\u0637\u0646 100%",
+      "shade": "\u062A\u0631\u0643\u0648\u0627\u0632 \u0627\u0644\u0646\u064A\u0644 (Reactive)",
+      "date": "\u062E\u0644\u0627\u0644 48 \u0633\u0627\u0639\u0629",
+      "stage": 3
+    },
+    "NH-2026-905": {
+      "spec": "3,500 \u0645\u062A\u0631 \u00B7 \u0641\u0633\u0643\u0648\u0632 \u0637\u0628\u0627\u0639\u0629 \u0631\u0648\u062A\u0627\u0631\u064A",
+      "shade": "\u0628\u0627\u062A\u0631\u0646 \u0631\u0642\u0645 #402",
+      "date": "\u063A\u062F\u0627\u064B \u0635\u0628\u0627\u062D\u0627\u064B",
+      "stage": 5
+    }
+  },
+  "orders": [
+    {
+      "date": "\u0661\u0664\u200F/\u0661\u0660\u200F/\u0662\u0660\u0662\u0666\u060C \u0661\u0660:\u0665\u0664:\u0663\u0663 \u0645",
+      "customerName": "\u0627\u062D\u0645\u062F",
+      "factoryName": "\u0627\u0644\u0631\u0627\u0626\u062F - \u0627\u0644\u0639\u0627\u0634\u0631",
+      "phone": "01000454545",
+      "items": [
+        {
+          "type": "\u0634\u0631\u0627\u0621 \u0642\u0645\u0627\u0634 \u062C\u0627\u0647\u0632",
+          "title": "\u0642\u0637\u0646 \u0644\u064A\u0643\u0631\u0627 (95/5) \u0639\u0627\u0644\u064A \u0627\u0644\u0645\u0637\u0627\u0637\u064A\u0629",
+          "details": "\u0627\u0644\u0644\u0648\u0646: \u0630\u0647\u0628\u064A \u0627\u0644\u0646\u0647\u0627\u0631 (Daylight Gold) | 250 kg",
+          "total": 82500
+        }
+      ],
+      "totalAmount": 82500,
+      "paidNow": 20625,
+      "paymentPlan": "\u0639\u0631\u0628\u0648\u0646 25%",
+      "paymentMethod": "\u0641\u0648\u062F\u0627\u0641\u0648\u0646 \u0643\u0627\u0634 (Vodafone Cash)",
+      "paymentRef": "\u0644\u0645 \u064A\u062D\u062F\u062F \u0628\u0639\u062F"
+    },
+    {
+      "date": "\u0661\u0664\u200F/\u0661\u0660\u200F/\u0662\u0660\u0662\u0666\u060C \u0661\u0660:\u0665\u0663:\u0662\u0667 \u0645",
+      "customerName": "\u0627\u062D\u0645\u062F",
+      "factoryName": "\u0627\u0644\u0631\u0627\u0626\u062F - \u0627\u0644\u0639\u0627\u0634\u0631",
+      "phone": "01000454545",
+      "items": [
+        {
+          "type": "\u0634\u0631\u0627\u0621 \u0642\u0645\u0627\u0634 \u062C\u0627\u0647\u0632",
+          "title": "\u0625\u0646\u062A\u0631\u0644\u0648\u0643 \u0628\u0648\u0644\u064A\u0633\u062A\u0631 \u0631\u064A\u0627\u0636\u064A",
+          "details": "\u0627\u0644\u0644\u0648\u0646: \u0630\u0647\u0628\u064A \u0627\u0644\u0646\u0647\u0627\u0631 (Daylight Gold) | 250 kg",
+          "total": 52500
+        }
+      ],
+      "totalAmount": 52500,
+      "paidNow": 13125,
+      "paymentPlan": "\u0639\u0631\u0628\u0648\u0646 25%",
+      "paymentMethod": "\u0641\u0648\u062F\u0627\u0641\u0648\u0646 \u0643\u0627\u0634 (Vodafone Cash)",
+      "paymentRef": "\u0644\u0645 \u064A\u062D\u062F\u062F \u0628\u0639\u062F"
+    },
+    {
+      "date": "\u0661\u0664\u200F/\u0661\u0660\u200F/\u0662\u0660\u0662\u0666\u060C \u0669:\u0663\u0668:\u0661\u0663 \u0645",
+      "customerName": "ahmecd",
+      "factoryName": "ssshff",
+      "phone": "01000454545",
+      "items": [
+        {
+          "type": "\u062D\u062C\u0632 \u0645\u0627\u0643\u064A\u0646\u0629 (\u062A\u0635\u0646\u064A\u0639 \u0644\u0644\u063A\u064A\u0631)",
+          "title": "\u062E\u0637 \u0645\u0627\u0643\u064A\u0646\u0627\u062A \u0635\u0628\u0627\u063A\u0629 \u062C\u064A\u062A (9 \u0645\u0627\u0643\u064A\u0646\u0627\u062A Jet)",
+          "details": "\u0627\u0644\u0645\u0648\u0639\u062F: \u063A\u062F\u0627\u064B (\u0627\u0644\u0648\u0631\u062F\u064A\u0629 \u0627\u0644\u062B\u0627\u0646\u064A\u0629 - 2 \u0638\u0647\u0631\u0627\u064B) | 250 \u0643\u062C\u0645",
+          "total": 11250
+        }
+      ],
+      "totalAmount": 11250,
+      "paidNow": 2813,
+      "paymentPlan": "\u0639\u0631\u0628\u0648\u0646 25%",
+      "paymentMethod": "\u0641\u0648\u062F\u0627\u0641\u0648\u0646 \u0643\u0627\u0634 (Vodafone Cash)",
+      "paymentRef": "01000454545"
+    },
+    {
+      "date": "\u0661\u0664\u200F/\u0661\u0660\u200F/\u0662\u0660\u0662\u0666\u060C \u0669:\u0663\u0666:\u0662\u0663 \u0645",
+      "customerName": "ahmed",
+      "factoryName": "road",
+      "phone": "01000454545",
+      "items": [
+        {
+          "type": "\u062D\u062C\u0632 \u0645\u0627\u0643\u064A\u0646\u0629 (\u062A\u0635\u0646\u064A\u0639 \u0644\u0644\u063A\u064A\u0631)",
+          "title": "\u062E\u0637 \u0645\u0627\u0643\u064A\u0646\u0627\u062A \u0635\u0628\u0627\u063A\u0629 \u062C\u064A\u062A (9 \u0645\u0627\u0643\u064A\u0646\u0627\u062A Jet)",
+          "details": "\u0627\u0644\u0645\u0648\u0639\u062F: \u063A\u062F\u0627\u064B (\u0627\u0644\u0648\u0631\u062F\u064A\u0629 \u0627\u0644\u062B\u0627\u0646\u064A\u0629 - 2 \u0638\u0647\u0631\u0627\u064B) | 250 \u0643\u062C\u0645",
+          "total": 11250
+        }
+      ],
+      "totalAmount": 11250,
+      "paidNow": 2813,
+      "paymentPlan": "\u0639\u0631\u0628\u0648\u0646 25%",
+      "paymentMethod": "\u0641\u0648\u062F\u0627\u0641\u0648\u0646 \u0643\u0627\u0634 (Vodafone Cash)",
+      "paymentRef": "01000454545"
+    },
+    {
+      "date": "\u0661\u0664\u200F/\u0661\u0660\u200F/\u0662\u0660\u0662\u0666\u060C \u0669:\u0663\u0663:\u0662\u0660 \u0645",
+      "customerName": "\u0627\u062D\u0645\u062F",
+      "factoryName": "\u0631\u0648\u0627\u062F",
+      "phone": "01000454545",
+      "items": [
+        {
+          "type": "\u0634\u0631\u0627\u0621 \u0642\u0645\u0627\u0634 \u062C\u0627\u0647\u0632",
+          "title": "\u0633\u0646\u062C\u0644 \u062C\u064A\u0631\u0633\u064A\u0647 \u0642\u0637\u0646 100% \u0641\u0627\u062E\u0631",
+          "details": "\u0627\u0644\u0644\u0648\u0646: \u0630\u0647\u0628\u064A \u0627\u0644\u0646\u0647\u0627\u0631 (Daylight Gold) | 250 kg",
+          "total": 73750
+        }
+      ],
+      "totalAmount": 73750,
+      "paidNow": 18438,
+      "paymentPlan": "\u0639\u0631\u0628\u0648\u0646 25%",
+      "paymentMethod": "\u0625\u0646\u0633\u062A\u0627 \u0628\u0627\u064A (InstaPay)",
+      "paymentRef": "\u0634\u0627\u0647\u064A\u0646"
+    },
+    {
+      "date": "\u0661\u0664\u200F/\u0661\u0660\u200F/\u0662\u0660\u0662\u0666\u060C \u0669:\u0662\u0665:\u0665\u0664 \u0645",
+      "customerName": "\u0627\u062D\u0645\u062F",
+      "factoryName": "\u0635\u0644\u0627\u062D",
+      "phone": "01000887410",
+      "items": [
+        {
+          "type": "\u062D\u062C\u0632 \u0645\u0627\u0643\u064A\u0646\u0629 (\u062A\u0635\u0646\u064A\u0639 \u0644\u0644\u063A\u064A\u0631)",
+          "title": "\u062E\u0637 \u0645\u0627\u0643\u064A\u0646\u0627\u062A \u0635\u0628\u0627\u063A\u0629 \u062C\u064A\u062A (9 \u0645\u0627\u0643\u064A\u0646\u0627\u062A Jet)",
+          "details": "\u0627\u0644\u0645\u0648\u0639\u062F: \u063A\u062F\u0627\u064B (\u0627\u0644\u0648\u0631\u062F\u064A\u0629 \u0627\u0644\u062B\u0627\u0646\u064A\u0629 - 2 \u0638\u0647\u0631\u0627\u064B) | 250 \u0643\u062C\u0645",
+          "total": 11250
+        }
+      ],
+      "totalAmount": 11250,
+      "paidNow": 2813,
+      "paymentPlan": "\u0639\u0631\u0628\u0648\u0646 25%",
+      "paymentMethod": "\u0625\u0646\u0633\u062A\u0627 \u0628\u0627\u064A (InstaPay)",
+      "paymentRef": "01029222933"
+    },
+    {
+      "date": "\u0661\u0664\u200F/\u0661\u0660\u200F/\u0662\u0660\u0662\u0666\u060C \u0669:\u0662\u0662:\u0660\u0668 \u0645",
+      "customerName": "\u0627\u062D\u0645\u062F",
+      "factoryName": "\u0627\u0644\u0645\u0647\u0646\u062F\u0633",
+      "phone": "01029222933",
+      "items": [
+        {
+          "type": "\u0634\u0631\u0627\u0621 \u0642\u0645\u0627\u0634 \u062C\u0627\u0647\u0632",
+          "title": "\u0633\u0646\u062C\u0644 \u062C\u064A\u0631\u0633\u064A\u0647 \u0642\u0637\u0646 100% \u0641\u0627\u062E\u0631",
+          "details": "\u0627\u0644\u0644\u0648\u0646: \u0630\u0647\u0628\u064A \u0627\u0644\u0646\u0647\u0627\u0631 (Daylight Gold) | 250 kg",
+          "total": 73750
+        }
+      ],
+      "totalAmount": 73750,
+      "paidNow": 18438,
+      "paymentPlan": "\u0639\u0631\u0628\u0648\u0646 25%",
+      "paymentMethod": "\u0641\u0648\u062F\u0627\u0641\u0648\u0646 \u0643\u0627\u0634 (Vodafone Cash)",
+      "paymentRef": "\u0644\u0645 \u064A\u062D\u062F\u062F \u0628\u0639\u062F"
+    }
+  ],
+  "customers": [
+    {
+      "name": "\u0627\u062D\u0645\u062F",
+      "email": "a7hmed333d@gmail.com",
+      "phone": "01000454545",
+      "address": "\u0627\u0644\u0639\u0627\u0634\u0631",
+      "company": "\u0627\u0644\u0631\u0627\u0626\u062F",
+      "password": "2026"
+    }
+  ]
+}
